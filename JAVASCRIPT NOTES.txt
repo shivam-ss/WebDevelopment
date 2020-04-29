@@ -1,0 +1,31 @@
+1. alert(""); // creates a popup
+2. Data Types in JS:
+     string
+     number
+     boolean
+
+     typeof(); //tells the data typeof
+
+     var name="shivam";
+
+     var name=prompt("what is your name" + "and class");
+
+     $ and _ are special characters for JS
+     Camelcasing: first small, then all capital
+
+console.log is only meant for the developer
+
+3. prompt("");
+4. name.length;
+5. var tweet=prompt("Compose your tweet");
+   alert("you have written"+tweet.length+"characters");
+
+6. slice(x,y); //slice(0,1); 0 take, leave all
+7. name.toUpperCase();
+8. name.toLowerCase
+9. FUNCTIONS: 
+    function name(){ }
+
+    
+
+

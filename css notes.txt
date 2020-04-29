@@ -1,0 +1,81 @@
+CSS NOTES:
+1: background-color: blue; in body code
+2- INLINE CSS: IN HEAD TAG, add style tag
+
+<style>
+body{   ;
+}
+</style>
+
+we can change properties of the hr tag in order  to make it look more stylish
+
+img{ height }
+
+use 30% instead of 30px in order to get proportionity while viewing on different devices
+
+see properties of border and etc
+
+4.   <img class="hahah" >
+
+     .hahah{  ;   }
+
+5.   <img id="jajaja">
+
+     #jajaja{ ;  }
+
+6. pseudo classes
+    like event driven
+    img:hover {;  }
+
+
+
+======== FAVICON =======
+
+favicon.cc
+
+1. create the fsvicon
+2. in <head>, add
+     <link rel="icon" href="name.io">
+     
+
+=========== div tag =========
+
+1. division, doesn't do anyhting without CSS
+    <div class="">
+    </div>
+
++++++++++ BROWSER APPLIES SOME DEFauLT CSS +++++++++++++
+
+======= CSS DISPLAY PROPERTY ======
+
+common inline elements: to add text/css in same line: 
+  <a>
+<span>
+</span>
+<img>
+
+   we still use block elements coz width etc dont work here
+
+3D Viewing is made possible here. one over another
+CSS position property
+   Static
+   Relative
+   Absolute
+   fixed
+
+RELATIVE: 
+initially, the position is static
+  { position: Relative
+   left: 30px; // means shift from left, ie to right
+   }
+   coordinates: top, bottom, left, right
+it doesn't effects position of other elements on t he screen
+
+
+display:inline
+all divs in same line
+
+{ position: Absolute
+right:30px;  // goes to 30 right, of its parent container(3d viewing)
+
+}
