@@ -31,6 +31,5 @@ const person= new Person({
     age: 22
 })
 
-person.save();
-
+person.save().then(()=>console.log("saved shivam"))
 // create just many objects and call fruit.insertMany([a,b,c])
